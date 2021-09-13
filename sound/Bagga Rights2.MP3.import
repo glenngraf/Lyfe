@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Bagga Rights2.MP3-618054df759f4647f2184a8aaa5db6d2.mp3str"
+
+[deps]
+
+source_file="res://sound/Bagga Rights2.MP3"
+dest_files=[ "res://.import/Bagga Rights2.MP3-618054df759f4647f2184a8aaa5db6d2.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
