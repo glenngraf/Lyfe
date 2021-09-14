@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Bagga Rights2.ogg-a8573de1bd3435b55360e5f3009a629f.oggstr"
+
+[deps]
+
+source_file="res://sound/Bagga Rights2.ogg"
+dest_files=[ "res://.import/Bagga Rights2.ogg-a8573de1bd3435b55360e5f3009a629f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
