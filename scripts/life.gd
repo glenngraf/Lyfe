@@ -116,11 +116,15 @@ func neighbor_cnt(list):
 				neighbor_list[vec] += 1
 			else:
 				neighbor_list[vec] = 1
+
+		
 				
 		# Check if this cell is isolated
 		if ! neighbor_list.has(Vector2(k.x, k.y)):
 			neighbor_list[Vector2(k.x, k.y)] = 0
-				
+
+	
+		
 	return neighbor_list
 
 var score_ = 100
