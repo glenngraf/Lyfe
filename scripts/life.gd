@@ -40,6 +40,9 @@ var seven = load_file("rle/seven.rle")
 var eight = load_file("rle/eight.rle")
 var nine = load_file("rle/nine.rle")
 
+
+
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	
@@ -54,6 +57,9 @@ func _ready():
 
 	# Load .rle pattern files
 	var acorn  = load_file("rle/acorn.rle")
+	if acorn == null:
+		print("foo")
+	
 	glider = load_file("rle/glider.rle")
 	var bar = load_file("rle/bar.rle")
 	var border = load_file("rle/border.rle")
@@ -180,9 +186,16 @@ func _on_timer_timeout():
 # Open and load .rle pattern file
 ###############################################################
 func load_file(filename):
+
 	var result = {}
 	var f = File.new()
-	f.open(filename, 1)
+	var format_str = "File %s not found"
+	var err_str = format_str % filename
+	
+	if f.open(filename, 1) != OK:
+		print(err_str)
+		return null
+	
 	var index = 1
   
 	while not f.eof_reached():

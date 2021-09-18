@@ -15,9 +15,9 @@ run/main_scene="res://Lyfe.tscn"
 config/icon="res://icon.png"
 
 [display]
-q
-window/size/width=1000
+
 window/size/height=1200
+qwindow/size/width=1000
 
 [physics]
 
