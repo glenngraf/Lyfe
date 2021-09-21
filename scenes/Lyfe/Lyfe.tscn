@@ -2,12 +2,12 @@
 
 [ext_resource path="res://scripts/life.gd" type="Script" id=1]
 [ext_resource path="res://sound/Bagga Rights2.MP3" type="AudioStream" id=2]
-[ext_resource path="res://Lyfe.tres" type="TileSet" id=3]
+[ext_resource path="res://scenes/Lyfe/Lyfe.tres" type="TileSet" id=3]
 
 [node name="Lyfe" type="Node2D"]
 script = ExtResource( 1 )
-lengthX = 200
-lengthY = 200
+lengthX = 1280
+lengthY = 720
 
 [node name="TopMap" type="TileMap" parent="."]
 tile_set = ExtResource( 3 )
@@ -22,4 +22,4 @@ autoplay = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
-zoom = Vector2( 50, 50 )
+zoom = Vector2( 25, 20 )

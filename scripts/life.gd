@@ -1,7 +1,7 @@
 extends Node2D
 
-export(int, 200) var lengthX
-export(int, 200) var lengthY
+export(int, 1280) var lengthX
+export(int, 720) var lengthY
 
 
 var ship_timer = 0
